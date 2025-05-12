@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://salkia-seo.vercel.app/sitemap.xml
+Sitemap: https://salkia.my.id/sitemap.xml

@@ -4,27 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portofolio resmi Salkia Agustien, seorang ui/ux designer, web developer yang ahli dalam HTML, CSS, dan pembuatan website responsif." />
-    <meta name="keywords" content="web developer, portofolio, HTML, CSS, frontend, SEO, UI/UX Designer Salkia Agustien" />
+
+    <title>Salkia Agustien | UI/UX Designer & Web Developer</title>
+
+    <meta name="description" content="Portofolio resmi Salkia Agustien, seorang UI/UX designer dan web developer yang ahli dalam HTML, CSS, dan pembuatan website responsif." />
+    <meta name="keywords" content="web developer, UI/UX designer, HTML, CSS, frontend, SEO, Salkia Agustien, portofolio" />
     <meta name="author" content="Salkia Agustien" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://salkia.my.id" />
+
+    <!-- Open Graph (untuk preview saat dibagikan) -->
+    <meta property="og:title" content="Salkia Agustien | UI/UX Designer & Web Developer" />
+    <meta property="og:description" content="Portofolio resmi Salkia Agustien, UI/UX designer & web developer profesional." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://salkia.my.id" />
+    <meta property="og:image" content="https://salkia.my.id/images/preview.jpg" />
+
+    <!-- Structured Data / Schema.org -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Salkia",
-        "url": "https://salkia-seo.vercel.app",
+        "name": "Salkia Agustien",
+        "url": "https://salkia.my.id",
         "sameAs": ["https://github.com/salkia"],
-        "jobTitle": "Web Developer",
+        "jobTitle": "UI/UX Designer & Web Developer",
         "worksFor": {
           "@type": "Organization",
           "name": "Freelance"
         }
       }
     </script>
+
     <link href="dist/css/final.css" rel="stylesheet" />
-    <title>Salkia Agustien | UI/UX Desigmer</title>
-    <!-- ini untuk ubah theme sesuai local storage dan bisa diubah manual juga -->
+
+    <!-- Theme Setting -->
     <script>
       if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");
